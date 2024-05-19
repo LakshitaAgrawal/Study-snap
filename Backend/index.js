@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const express = require("express");
 const cors = require("cors");
 const DbConnect = require("./Config/database");
@@ -21,3 +21,5 @@ app.get("/", (req, res) => {
 DbConnect();
 app.use(express.json());
 app.use("/api/v1", apiv1Router);
+
+

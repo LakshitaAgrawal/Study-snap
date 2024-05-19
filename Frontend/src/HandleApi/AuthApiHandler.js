@@ -1,6 +1,9 @@
 import axios from "axios";
-const baseUrl = `${import.meta.env.VITE_BASE_URL}/auth`;
+const baseUrl = `${import.meta.env.VITE_BASE_URL}/api/v1/auth`;
+// const baseUrl = `https://study-snap-backend.vercel.app/api/v1/auth`;
 
+
+// https://study-snap-backend.vercel.app/api/v1/auth
 const checkIfAuthenticated = async () => {
   const response = await axios.get(`${baseUrl}/check`, {
     withCredentials: true,

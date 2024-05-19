@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = `${import.meta.env.VITE_BASE_URL}/todo`;
+const baseUrl = `${import.meta.env.VITE_BASE_URL}/api/v1/todo`;
 
 const createTodo = async (task, user, order) => {
   try {

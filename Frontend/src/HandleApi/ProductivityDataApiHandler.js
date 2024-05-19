@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = `${import.meta.env.VITE_BASE_URL}/productivity`;
+const baseUrl = `${import.meta.env.VITE_BASE_URL}/api/v1/productivity`;
 
 const setStudyTarget = async (email, studyTarget) => {
   try {

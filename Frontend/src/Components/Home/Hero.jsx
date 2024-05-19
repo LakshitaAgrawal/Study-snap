@@ -30,7 +30,7 @@ export const Hero = ({ scrollToFeatures }) => {
             transition={{ ...animationTransition, delay: 0.25 }}
             className="font-bold text-4xl mx-auto lg:text-6xl max-w-[25ch] text-center"
           >
-            A No Bullsh*t Productivity Tracking Website for Students
+            An Unfiltered Productivity Hub for Students
           </motion.h1>
           <motion.h4
             ref={ref}
@@ -38,7 +38,7 @@ export const Hero = ({ scrollToFeatures }) => {
             initial="hidden"
             animate={mainControls}
             transition={{ ...animationTransition, delay: 0.4 }}
-            className="font-medium mx-auto my-2 text-gray-300/90 text-md lg:text-xl text-center max-w-[70ch]"
+            className="font-medium mx-auto my-4 text-gray-300/90 text-md lg:text-xl text-center max-w-[70ch]"
           >
             Track your study hours, set goals, and boost your productivity with
             our straightforward student-focused platform. No fluff, just
