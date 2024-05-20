@@ -4,7 +4,7 @@ export const Footer = () => {
       <h1 className="font-medium text-sm">
         Study Snap - A project by{" "}
         <a href="https://www.linkedin.com/in/akshat-dubey29/" target="_blank">
-          Akshat Dubey
+          Prabhjot Kapila
         </a>
       </h1>
     </div>
